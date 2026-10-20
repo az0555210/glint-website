@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glint – Digital Agency</title>
+  <meta name="description" content="Glint is a one-page digital agency website.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="preloader" aria-hidden="true"><span class="loader"></span></div>
+
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#home" class="logo">Glint<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Works</a>
+        <a href="#stats">Stats</a>
+        <a href="#testimonials">Clients</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <h1>We Create <br>Digital Experiences</h1>
+        <p>We are a creative agency that designs and builds brands, websites and products people love to use.</p>
+        <a href="#about" class="btn">Learn more</a>
+      </div>
+      <a href="#about" class="scroll-down" aria-label="Scroll to about section">Scroll</a>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="about-text">
+          <h2 class="title">About Us</h2>
+          <p class="lead">We are a small team of designers and developers who care about the details.</p>
+          <p>From first sketch to final launch, we work closely with our clients to shape ideas into clean, fast and memorable digital products. Our work is simple on the surface and carefully built underneath.</p>
+          <a href="#contact" class="btn">Work with us</a>
+        </div>
+        <div class="about-img">
+          <img src="https://picsum.photos/seed/glint-about/700/500" alt="Our team at work" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section dark" id="services">
+      <div class="container">
+        <h2 class="title center">What We Do</h2>
+        <div class="services-grid">
+          <article class="service">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
+            <h3>Brand Identity</h3>
+            <p>Logos, color systems and guidelines that make your brand easy to recognise.</p>
+          </article>
+          <article class="service">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h18v12H3zM8 20h8M12 16v4"/></svg>
+            <h3>Web Design</h3>
+            <p>Responsive websites with clear layouts and a focus on speed and usability.</p>
+          </article>
+          <article class="service">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></svg>
+            <h3>Development</h3>
+            <p>Clean front-end code that works on every screen and every modern browser.</p>
+          </article>
+          <article class="service">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-8M22 20H2"/></svg>
+            <h3>Digital Marketing</h3>
+            <p>Campaigns and content that bring the right visitors to your product.</p>
+          </article>
+          <article class="service">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 100 18 9 9 0 000-18zM12 8v4l3 2"/></svg>
+            <h3>Product Design</h3>
+            <p>Interfaces for apps and dashboards that feel natural from the first click.</p>
+          </article>
+          <article class="service">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H8l-4 4z"/></svg>
+            <h3>Support</h3>
+            <p>Ongoing updates and quick help after launch, whenever you need it.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section class="section" id="portfolio">
+      <div class="container">
+        <h2 class="title center">Our Works</h2>
+        <div class="filters" role="group" aria-label="Filter works">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="branding">Branding</button>
+          <button class="filter" data-filter="web">Web</button>
+          <button class="filter" data-filter="photo">Photography</button>
+        </div>
+        <div class="works-grid">
+          <figure class="work" data-category="branding"><img src="https://picsum.photos/seed/glint-1/600/450" alt="Branding project" loading="lazy"><figcaption><h3>Studio Identity</h3><span>Branding</span></figcaption></figure>
+          <figure class="work" data-category="web"><img src="https://picsum.photos/seed/glint-2/600/450" alt="Web project" loading="lazy"><figcaption><h3>Online Store</h3><span>Web</span></figcaption></figure>
+          <figure class="work" data-category="photo"><img src="https://picsum.photos/seed/glint-3/600/450" alt="Photography project" loading="lazy"><figcaption><h3>City Lights</h3><span>Photography</span></figcaption></figure>
+          <figure class="work" data-category="web"><img src="https://picsum.photos/seed/glint-4/600/450" alt="Web project" loading="lazy"><figcaption><h3>Travel Blog</h3><span>Web</span></figcaption></figure>
+          <figure class="work" data-category="branding"><img src="https://picsum.photos/seed/glint-5/600/450" alt="Branding project" loading="lazy"><figcaption><h3>Coffee Packaging</h3><span>Branding</span></figcaption></figure>
+          <figure class="work" data-category="photo"><img src="https://picsum.photos/seed/glint-6/600/450" alt="Photography project" loading="lazy"><figcaption><h3>Mountain Series</h3><span>Photography</span></figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="stats" id="stats">
+      <div class="container stats-grid">
+        <div class="stat"><strong class="counter" data-target="250">0</strong><span>Projects done</span></div>
+        <div class="stat"><strong class="counter" data-target="120">0</strong><span>Happy clients</span></div>
+        <div class="stat"><strong class="counter" data-target="38">0</strong><span>Awards won</span></div>
+        <div class="stat"><strong class="counter" data-target="9">0</strong><span>Years of work</span></div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="section dark" id="testimonials">
+      <div class="container">
+        <h2 class="title center">Client Words</h2>
+        <div class="slider" id="slider">
+          <div class="slides">
+            <blockquote class="slide active">
+              <p>The team understood our idea quickly and delivered a site that is fast, clean and exactly what we wanted.</p>
+              <cite>Amelia Carter, Founder at Northwind</cite>
+            </blockquote>
+            <blockquote class="slide">
+              <p>Great communication from start to finish. Our new brand has already helped us win new customers.</p>
+              <cite>Daniel Reyes, Marketing Lead at Brightly</cite>
+            </blockquote>
+            <blockquote class="slide">
+              <p>Careful, creative and reliable. We keep coming back to Glint for every new project.</p>
+              <cite>Sara Malik, Director at Orbit Labs</cite>
+            </blockquote>
+          </div>
+          <div class="dots" id="dots"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <h2 class="title">Get In Touch</h2>
+          <p>Tell us about your project and we will reply within one working day.</p>
+          <ul class="contact-list">
+            <li>hello@glint.example</li>
+            <li>+1 (555) 123-4567</li>
+            <li>12 Market Street, New York</li>
+          </ul>
+        </div>
+        <form class="form" id="contactForm" novalidate>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" autocomplete="name" required>
+          <small class="error" data-for="name"></small>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+          <small class="error" data-for="email"></small>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          <small class="error" data-for="message"></small>
+
+          <button type="submit" class="btn">Send message</button>
+          <p class="form-status" id="formStatus" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Glint. Design inspired by the Glint template by Colorlib.</p>
+      <div class="social">
+        <a href="#" aria-label="Facebook">Fb</a>
+        <a href="#" aria-label="Twitter">Tw</a>
+        <a href="#" aria-label="Instagram">Ig</a>
+        <a href="#" aria-label="Dribbble">Dr</a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Back to top">&uarr;</button>
+
+  <script src="main.js"></script>
+</body>
+</html>
