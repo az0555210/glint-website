@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d443880 (Update Glint website)
 :root {
   --green: #1fd38a;
   --green-dark: #14a96d;
@@ -125,6 +128,7 @@ button { font-family: inherit; cursor: pointer; }
 /* Footer */
 .footer { background: var(--dark); padding: 30px 0; font-size: .9rem; }
 .footer-inner { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; }
+<<<<<<< HEAD
 
 .social-links {
     display: flex;
@@ -153,6 +157,11 @@ button { font-family: inherit; cursor: pointer; }
     border-color: #20cf91;
     transform: translateY(-4px);
 }
+=======
+.social { display: flex; gap: 10px; }
+.social a { width: 38px; height: 38px; display: grid; place-items: center; border: 1px solid #2a2a2a; border-radius: 50%; color: var(--white); font-size: .8rem; transition: all .25s; }
+.social a:hover { background: var(--green); border-color: var(--green); color: var(--black); }
+>>>>>>> d443880 (Update Glint website)
 
 .to-top { position: fixed; right: 24px; bottom: 24px; width: 46px; height: 46px; border-radius: 50%; border: 0; background: var(--green); color: var(--black); font-size: 1.2rem; opacity: 0; visibility: hidden; transition: opacity .3s, visibility .3s, transform .3s; z-index: 90; }
 .to-top.show { opacity: 1; visibility: visible; }
@@ -181,6 +190,7 @@ button { font-family: inherit; cursor: pointer; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+<<<<<<< HEAD
 =======
 :root {
   --green: #1fd38a;
@@ -340,4 +350,6 @@ button { font-family: inherit; cursor: pointer; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
 >>>>>>> 588527461640c63bf99a5a0ebfcfee7d24a845b0
+=======
+>>>>>>> d443880 (Update Glint website)
 }

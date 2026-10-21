@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 "use strict";
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -146,6 +145,7 @@ document.addEventListener("DOMContentLoaded", () => {
       status.textContent = "Thank you! Your message has been sent.";
     }
   });
+<<<<<<< HEAD
 =======
 "use strict";
 
@@ -295,4 +295,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 >>>>>>> 588527461640c63bf99a5a0ebfcfee7d24a845b0
+=======
+>>>>>>> d443880 (Update Glint website)
 });
